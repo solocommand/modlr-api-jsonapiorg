@@ -16,7 +16,6 @@
     },
     "require": {
         "php": ">=5.4",
-        "as3/modlr": "dev-master"
-    },
-    "minimum-stability": "dev"
+        "as3/modlr": "^1.0"
+    }
 }
