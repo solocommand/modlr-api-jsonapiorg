@@ -1,0 +1,21 @@
+{
+    "name": "as3/modlr-api-jsonapiorg",
+    "license": "Apache-2.0",
+    "type": "library",
+    "description": "jsonapi.org API spec for the Modlr REST library.",
+    "authors": [
+        {
+            "name": "Jacob Bare",
+            "email": "jacob.bare@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "As3\\Modlr\\RestOdm\\Api\\JsonApiOrg": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.6",
+        "as3/modlr-rest-odm": "dev-master"
+    }
+}
