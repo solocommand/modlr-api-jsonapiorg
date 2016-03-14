@@ -1,15 +1,15 @@
 <?php
 
-namespace As3\Modlr\RestOdm\Api\JsonApiOrg;
+namespace As3\Modlr\Api\JsonApiOrg;
 
-use As3\Modlr\RestOdm\Api\AbstractAdapter;
-use As3\Modlr\RestOdm\Api\AdapterException;
-use As3\Modlr\RestOdm\Exception\HttpExceptionInterface;
-use As3\Modlr\RestOdm\Metadata\EntityMetadata;
-use As3\Modlr\RestOdm\Models\Collection;
-use As3\Modlr\RestOdm\Models\Model;
-use As3\Modlr\RestOdm\Rest;
-use As3\Modlr\RestOdm\Store\Store;
+use As3\Modlr\Api\AbstractAdapter;
+use As3\Modlr\Api\AdapterException;
+use As3\Modlr\Exception\HttpExceptionInterface;
+use As3\Modlr\Metadata\EntityMetadata;
+use As3\Modlr\Models\Collection;
+use As3\Modlr\Models\Model;
+use As3\Modlr\Rest;
+use As3\Modlr\Store\Store;
 
 /**
  * Adapter for handling API operations using the JSON API specification.

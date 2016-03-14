@@ -1,14 +1,14 @@
 <?php
 
-namespace As3\Modlr\RestOdm\Api\JsonApiOrg;
+namespace As3\Modlr\Api\JsonApiOrg;
 
-use As3\Modlr\RestOdm\Api\AdapterInterface;
-use As3\Modlr\RestOdm\Api\SerializerException;
-use As3\Modlr\RestOdm\Api\SerializerInterface;
-use As3\Modlr\RestOdm\Metadata\AttributeMetadata;
-use As3\Modlr\RestOdm\Metadata\RelationshipMetadata;
-use As3\Modlr\RestOdm\Models\Collection;
-use As3\Modlr\RestOdm\Models\Model;
+use As3\Modlr\Api\AdapterInterface;
+use As3\Modlr\Api\SerializerException;
+use As3\Modlr\Api\SerializerInterface;
+use As3\Modlr\Metadata\AttributeMetadata;
+use As3\Modlr\Metadata\RelationshipMetadata;
+use As3\Modlr\Models\Collection;
+use As3\Modlr\Models\Model;
 
 /**
  * Serializes Models into the JSON API spec.

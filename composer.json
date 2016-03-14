@@ -11,11 +11,11 @@
     ],
     "autoload": {
         "psr-4": {
-            "As3\\Modlr\\RestOdm\\Api\\JsonApiOrg\\": "src/"
+            "As3\\Modlr\\Api\\JsonApiOrg\\": "src/"
         }
     },
     "require": {
         "php": ">=5.6",
-        "as3/modlr-rest-odm": "dev-master"
+        "as3/modlr": "dev-master"
     }
 }

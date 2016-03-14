@@ -1,11 +1,11 @@
 <?php
 
-namespace As3\Modlr\RestOdm\Api\JsonApiOrg;
+namespace As3\Modlr\Api\JsonApiOrg;
 
-use As3\Modlr\RestOdm\Api\AbstractNormalizer;
-use As3\Modlr\RestOdm\Api\NormalizerException;
-use As3\Modlr\RestOdm\Metadata\EntityMetadata;
-use As3\Modlr\RestOdm\Rest\RestPayload;
+use As3\Modlr\Api\AbstractNormalizer;
+use As3\Modlr\Api\NormalizerException;
+use As3\Modlr\Metadata\EntityMetadata;
+use As3\Modlr\Rest\RestPayload;
 
 /**
  * Normalizes REST payloads into standard arrays based on the JSON API spec.
