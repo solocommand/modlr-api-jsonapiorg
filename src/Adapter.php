@@ -38,6 +38,9 @@ final class Adapter extends AbstractAdapter
                         // @todo Eventually add pagination (limit/skip)
                         return $this->autocomplete($request->getEntityType(), $request->getAutocompleteKey(), $request->getAutocompleteValue());
                     }
+                    if (true === $request->isQuery()) {
+                        return $this->findQuery($request->getEntityType(), $request->getQueryCriteria());
+                    }
                     return $this->findAll($request->getEntityType(), []); //, $request->getPagination(), $request->getFieldset(), $request->getInclusions(), $request->getSorting());
                 }
                 throw AdapterException::badRequest('No GET handler found.');
